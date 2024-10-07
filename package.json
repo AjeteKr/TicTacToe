@@ -2,11 +2,7 @@
   "name": "react-essentials-deep-dive-adv",
   "private": true,
   "version": "0.0.0",
-<<<<<<< Updated upstream
-  "homepage": "https://AjeteKr.github.io/tictactoe",
-=======
   "homepage": "http://ajetekr.github.io/TicTacToe/",
->>>>>>> Stashed changes
   "type": "module",
   "scripts": {
     "dev": "vite",
