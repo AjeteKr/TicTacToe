@@ -25,7 +25,7 @@ export default function GameBoard({ onSelectSquare, activePlayerSymbol }) {
                 <ol>
                     {row.map((playerSimbol, colIndex) => (
                         <li key={colIndex}>
-                            <button onClick={() => handleSelectSquare(rowIndex, colIndex)}>{playerSimbol}</button>
+                            <button onClick={onSelectSquare}>{playerSimbol}</button>
                         </li>))}
                 </ol>
             </li>))}
