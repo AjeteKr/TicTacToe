@@ -50,7 +50,7 @@ function App() {
     }
   }
 
-  const hasDraw = gameTurns.length === 9 !== winner;
+  const hasDraw = gameTurns.length === 9 && !winner;
 
   function handleSelectSquare(rowIndex, colIndex) {
     setGameTurns(prevTurns => {
